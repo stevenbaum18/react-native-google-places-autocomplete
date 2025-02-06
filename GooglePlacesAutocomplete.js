@@ -839,7 +839,6 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
     ...userProps
   } = props.textInputProps;
   const TextInputComp = InputComp || TextInput;
-  console.log(props.defaultValue);
   return (
     <View
       style={[
